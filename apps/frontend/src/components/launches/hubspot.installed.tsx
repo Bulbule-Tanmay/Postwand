@@ -21,7 +21,7 @@ export const HubspotInstalled: FC = () => {
     shown.current = true;
     (async () => {
       await modal.open({
-        title: t('hubspot_installed', 'Postiz is installed in HubSpot'),
+        title: t('hubspot_installed', 'Postwand is installed in HubSpot'),
         onlyApprove: true,
         approveLabel: t('ok', 'OK'),
         description: t(
